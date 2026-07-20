@@ -18,7 +18,7 @@ html {
   background-color: #1b1919;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 
 h1,
@@ -209,15 +209,13 @@ ol {
   font-weight: 400;
   line-height: 100%;
   letter-spacing: 0%;
-}
-
-.search-form__fieldset-title {
   margin-bottom: 5px;
 }
 
 .search-form__checkbox-list {
   display: flex;
   gap: 15px;
+  width: 212px;
 }
 
 .search-form__fieldset {
@@ -256,10 +254,6 @@ ol {
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-}
-
-.search-form__checkbox-list {
-  width: 212px;
 }
 
 .search-form__pseudo-checkbox {
@@ -308,7 +302,7 @@ ol {
   font-weight: bold;
   font-size: 18px;
   cursor: pointer;
-  min-height: 34px;  
+  min-height: 34px;
 }
 
 .button:hover {
